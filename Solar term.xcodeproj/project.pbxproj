@@ -1,0 +1,466 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		180BA72518E7D05D00E89B7B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 180BA72418E7D05D00E89B7B /* Foundation.framework */; };
+		180BA72718E7D05D00E89B7B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 180BA72618E7D05D00E89B7B /* CoreGraphics.framework */; };
+		180BA72918E7D05D00E89B7B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 180BA72818E7D05D00E89B7B /* UIKit.framework */; };
+		180BA72F18E7D05D00E89B7B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 180BA72D18E7D05D00E89B7B /* InfoPlist.strings */; };
+		180BA73118E7D05D00E89B7B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 180BA73018E7D05D00E89B7B /* main.m */; };
+		180BA73518E7D05E00E89B7B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 180BA73418E7D05E00E89B7B /* AppDelegate.m */; };
+		180BA73718E7D05E00E89B7B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 180BA73618E7D05E00E89B7B /* Images.xcassets */; };
+		180BA73E18E7D05E00E89B7B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 180BA73D18E7D05E00E89B7B /* XCTest.framework */; };
+		180BA73F18E7D05E00E89B7B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 180BA72418E7D05D00E89B7B /* Foundation.framework */; };
+		180BA74018E7D05E00E89B7B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 180BA72818E7D05D00E89B7B /* UIKit.framework */; };
+		180BA74818E7D05F00E89B7B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 180BA74618E7D05F00E89B7B /* InfoPlist.strings */; };
+		180BA74A18E7D05F00E89B7B /* Solar_termTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 180BA74918E7D05F00E89B7B /* Solar_termTests.m */; };
+		180BA75518E7D47A00E89B7B /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 180BA75418E7D47A00E89B7B /* MainViewController.m */; };
+		180BA75818E7F9DE00E89B7B /* directoryTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 180BA75718E7F9DE00E89B7B /* directoryTableViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		180BA74118E7D05E00E89B7B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 180BA71918E7D05D00E89B7B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 180BA72018E7D05D00E89B7B;
+			remoteInfo = "Solar term";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		180BA72118E7D05D00E89B7B /* Solar term.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Solar term.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		180BA72418E7D05D00E89B7B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		180BA72618E7D05D00E89B7B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		180BA72818E7D05D00E89B7B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		180BA72C18E7D05D00E89B7B /* Solar term-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Solar term-Info.plist"; sourceTree = "<group>"; };
+		180BA72E18E7D05D00E89B7B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		180BA73018E7D05D00E89B7B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		180BA73218E7D05D00E89B7B /* Solar term-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Solar term-Prefix.pch"; sourceTree = "<group>"; };
+		180BA73318E7D05E00E89B7B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		180BA73418E7D05E00E89B7B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		180BA73618E7D05E00E89B7B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		180BA73C18E7D05E00E89B7B /* Solar termTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Solar termTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		180BA73D18E7D05E00E89B7B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		180BA74518E7D05F00E89B7B /* Solar termTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Solar termTests-Info.plist"; sourceTree = "<group>"; };
+		180BA74718E7D05F00E89B7B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		180BA74918E7D05F00E89B7B /* Solar_termTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Solar_termTests.m; sourceTree = "<group>"; };
+		180BA75318E7D47A00E89B7B /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		180BA75418E7D47A00E89B7B /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		180BA75618E7F9DE00E89B7B /* directoryTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = directoryTableViewController.h; sourceTree = "<group>"; };
+		180BA75718E7F9DE00E89B7B /* directoryTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = directoryTableViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		180BA71E18E7D05D00E89B7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				180BA72718E7D05D00E89B7B /* CoreGraphics.framework in Frameworks */,
+				180BA72918E7D05D00E89B7B /* UIKit.framework in Frameworks */,
+				180BA72518E7D05D00E89B7B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		180BA73918E7D05E00E89B7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				180BA73E18E7D05E00E89B7B /* XCTest.framework in Frameworks */,
+				180BA74018E7D05E00E89B7B /* UIKit.framework in Frameworks */,
+				180BA73F18E7D05E00E89B7B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		180BA71818E7D05D00E89B7B = {
+			isa = PBXGroup;
+			children = (
+				180BA72A18E7D05D00E89B7B /* Solar term */,
+				180BA74318E7D05E00E89B7B /* Solar termTests */,
+				180BA72318E7D05D00E89B7B /* Frameworks */,
+				180BA72218E7D05D00E89B7B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		180BA72218E7D05D00E89B7B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				180BA72118E7D05D00E89B7B /* Solar term.app */,
+				180BA73C18E7D05E00E89B7B /* Solar termTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		180BA72318E7D05D00E89B7B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				180BA72418E7D05D00E89B7B /* Foundation.framework */,
+				180BA72618E7D05D00E89B7B /* CoreGraphics.framework */,
+				180BA72818E7D05D00E89B7B /* UIKit.framework */,
+				180BA73D18E7D05E00E89B7B /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		180BA72A18E7D05D00E89B7B /* Solar term */ = {
+			isa = PBXGroup;
+			children = (
+				180BA73318E7D05E00E89B7B /* AppDelegate.h */,
+				180BA73418E7D05E00E89B7B /* AppDelegate.m */,
+				180BA75318E7D47A00E89B7B /* MainViewController.h */,
+				180BA75418E7D47A00E89B7B /* MainViewController.m */,
+				180BA75618E7F9DE00E89B7B /* directoryTableViewController.h */,
+				180BA75718E7F9DE00E89B7B /* directoryTableViewController.m */,
+				180BA73618E7D05E00E89B7B /* Images.xcassets */,
+				180BA72B18E7D05D00E89B7B /* Supporting Files */,
+			);
+			path = "Solar term";
+			sourceTree = "<group>";
+		};
+		180BA72B18E7D05D00E89B7B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				180BA72C18E7D05D00E89B7B /* Solar term-Info.plist */,
+				180BA72D18E7D05D00E89B7B /* InfoPlist.strings */,
+				180BA73018E7D05D00E89B7B /* main.m */,
+				180BA73218E7D05D00E89B7B /* Solar term-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		180BA74318E7D05E00E89B7B /* Solar termTests */ = {
+			isa = PBXGroup;
+			children = (
+				180BA74918E7D05F00E89B7B /* Solar_termTests.m */,
+				180BA74418E7D05F00E89B7B /* Supporting Files */,
+			);
+			path = "Solar termTests";
+			sourceTree = "<group>";
+		};
+		180BA74418E7D05F00E89B7B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				180BA74518E7D05F00E89B7B /* Solar termTests-Info.plist */,
+				180BA74618E7D05F00E89B7B /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		180BA72018E7D05D00E89B7B /* Solar term */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 180BA74D18E7D05F00E89B7B /* Build configuration list for PBXNativeTarget "Solar term" */;
+			buildPhases = (
+				180BA71D18E7D05D00E89B7B /* Sources */,
+				180BA71E18E7D05D00E89B7B /* Frameworks */,
+				180BA71F18E7D05D00E89B7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Solar term";
+			productName = "Solar term";
+			productReference = 180BA72118E7D05D00E89B7B /* Solar term.app */;
+			productType = "com.apple.product-type.application";
+		};
+		180BA73B18E7D05E00E89B7B /* Solar termTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 180BA75018E7D05F00E89B7B /* Build configuration list for PBXNativeTarget "Solar termTests" */;
+			buildPhases = (
+				180BA73818E7D05E00E89B7B /* Sources */,
+				180BA73918E7D05E00E89B7B /* Frameworks */,
+				180BA73A18E7D05E00E89B7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				180BA74218E7D05E00E89B7B /* PBXTargetDependency */,
+			);
+			name = "Solar termTests";
+			productName = "Solar termTests";
+			productReference = 180BA73C18E7D05E00E89B7B /* Solar termTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		180BA71918E7D05D00E89B7B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Yongjia Liu";
+				TargetAttributes = {
+					180BA73B18E7D05E00E89B7B = {
+						TestTargetID = 180BA72018E7D05D00E89B7B;
+					};
+				};
+			};
+			buildConfigurationList = 180BA71C18E7D05D00E89B7B /* Build configuration list for PBXProject "Solar term" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 180BA71818E7D05D00E89B7B;
+			productRefGroup = 180BA72218E7D05D00E89B7B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				180BA72018E7D05D00E89B7B /* Solar term */,
+				180BA73B18E7D05E00E89B7B /* Solar termTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		180BA71F18E7D05D00E89B7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				180BA72F18E7D05D00E89B7B /* InfoPlist.strings in Resources */,
+				180BA73718E7D05E00E89B7B /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		180BA73A18E7D05E00E89B7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				180BA74818E7D05F00E89B7B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		180BA71D18E7D05D00E89B7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				180BA73518E7D05E00E89B7B /* AppDelegate.m in Sources */,
+				180BA75818E7F9DE00E89B7B /* directoryTableViewController.m in Sources */,
+				180BA75518E7D47A00E89B7B /* MainViewController.m in Sources */,
+				180BA73118E7D05D00E89B7B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		180BA73818E7D05E00E89B7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				180BA74A18E7D05F00E89B7B /* Solar_termTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		180BA74218E7D05E00E89B7B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 180BA72018E7D05D00E89B7B /* Solar term */;
+			targetProxy = 180BA74118E7D05E00E89B7B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		180BA72D18E7D05D00E89B7B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				180BA72E18E7D05D00E89B7B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		180BA74618E7D05F00E89B7B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				180BA74718E7D05F00E89B7B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		180BA74B18E7D05F00E89B7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		180BA74C18E7D05F00E89B7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		180BA74E18E7D05F00E89B7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Solar term/Solar term-Prefix.pch";
+				INFOPLIST_FILE = "Solar term/Solar term-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		180BA74F18E7D05F00E89B7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Solar term/Solar term-Prefix.pch";
+				INFOPLIST_FILE = "Solar term/Solar term-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		180BA75118E7D05F00E89B7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Solar term.app/Solar term";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Solar term/Solar term-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Solar termTests/Solar termTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		180BA75218E7D05F00E89B7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Solar term.app/Solar term";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Solar term/Solar term-Prefix.pch";
+				INFOPLIST_FILE = "Solar termTests/Solar termTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		180BA71C18E7D05D00E89B7B /* Build configuration list for PBXProject "Solar term" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				180BA74B18E7D05F00E89B7B /* Debug */,
+				180BA74C18E7D05F00E89B7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		180BA74D18E7D05F00E89B7B /* Build configuration list for PBXNativeTarget "Solar term" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				180BA74E18E7D05F00E89B7B /* Debug */,
+				180BA74F18E7D05F00E89B7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		180BA75018E7D05F00E89B7B /* Build configuration list for PBXNativeTarget "Solar termTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				180BA75118E7D05F00E89B7B /* Debug */,
+				180BA75218E7D05F00E89B7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 180BA71918E7D05D00E89B7B /* Project object */;
+}
